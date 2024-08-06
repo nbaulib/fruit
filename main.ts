@@ -36,7 +36,7 @@ info.onCountdownEnd(function () {
         mp.gameOverPlayerWin(mp.playerSelector(mp.PlayerNumber.Two))
     } else if (mp.getPlayerState(mp.playerSelector(mp.PlayerNumber.Three), MultiplayerState.score) > mp.getPlayerState(mp.playerSelector(mp.PlayerNumber.One), MultiplayerState.score) && mp.getPlayerState(mp.playerSelector(mp.PlayerNumber.Three), MultiplayerState.score) > mp.getPlayerState(mp.playerSelector(mp.PlayerNumber.Two), MultiplayerState.score) && mp.getPlayerState(mp.playerSelector(mp.PlayerNumber.Three), MultiplayerState.score) > mp.getPlayerState(mp.playerSelector(mp.PlayerNumber.Four), MultiplayerState.score)) {
         mp.gameOverPlayerWin(mp.playerSelector(mp.PlayerNumber.Three))
-    } else if (mp.getPlayerState(mp.playerSelector(mp.PlayerNumber.Four), MultiplayerState.score) > mp.getPlayerState(mp.playerSelector(mp.PlayerNumber.One), MultiplayerState.score) && mp.getPlayerState(mp.playerSelector(mp.PlayerNumber.Four), MultiplayerState.score) > mp.getPlayerState(mp.playerSelector(mp.PlayerNumber.Two), MultiplayerState.score) && mp.getPlayerState(mp.playerSelector(mp.PlayerNumber.Four), MultiplayerState.score) > mp.getPlayerState(mp.playerSelector(mp.PlayerNumber.Three), MultiplayerState.score)) {
+    } else if (0 > 0 && 0 > 0 && 0 > 0) {
         mp.gameOverPlayerWin(mp.playerSelector(mp.PlayerNumber.Four))
     } else {
         game.setGameOverMessage(true, "It's a Tie!!!")
